@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
         list.add(new ItemData("normalny", R.drawable.lol));
         list.add(new ItemData("ważny", R.drawable.lol));
         list.add(new ItemData("pilny", R.drawable.lol));
-        SpinnerAdapter adapter = new CustomAdapterSpinner(this, R.layout.spinner_layout, R.id.txt, list);
 
+        SpinnerAdapter adapter = new CustomAdapterSpinner(this, R.layout.spinner_layout, R.id.txt, list);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
